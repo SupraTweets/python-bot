@@ -4,7 +4,6 @@ import requests
 from dotenv import load_dotenv
 from memegen import create_meme
 
-# Load environment variables
 load_dotenv()
 
 # Twitter API credentials
@@ -14,20 +13,11 @@ ACCESS_TOKEN = os.getenv("ACCESS_TOKEN2")
 ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET2")
 BEARER_TOKEN = os.getenv("BEARER_TOKEN2")  # v2 API requires a Bearer Token
 
-# Authenticate with the v2 API
 client = tweepy.Client(bearer_token=BEARER_TOKEN, 
                        consumer_key=API_KEY,
                        consumer_secret=API_KEY_SECRET,
                        access_token=ACCESS_TOKEN,
                        access_token_secret=ACCESS_TOKEN_SECRET)
-
-# Function to post a tweet using v2 API
-def post_tweet_v2(content):
-    try:
-        response = client.create_tweet(text=content)
-        print(f"Tweet posted successfully! Tweet ID: {response.data['id']}")
-    except Exception as e:
-        print(f"Error: {e}")
 
 def post_tweet_with_online_image(content, image_url):
     """
@@ -38,9 +28,9 @@ def post_tweet_with_online_image(content, image_url):
     - image_url (str): URL of the image to be downloaded and posted.
     """
     try:
-        # Step 1: Download the image from the URL
+        # Download the image from the URL
         response = requests.get(image_url)
-        response.raise_for_status()  # Ensure the request was successful
+        response.raise_for_status()
         
         # Save the image temporarily in memory
         from io import BytesIO
