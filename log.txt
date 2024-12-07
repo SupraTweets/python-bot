@@ -81,3 +81,22 @@ Traceback (most recent call last):
     raise Forbidden(response)
 tweepy.errors.Forbidden: 403 Forbidden
 Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
+1/6 Countdown to Blast Off's Layer-1 mainnet is nearing completion, with the Token Generation Event (TGE) imminent. Supra's L1 network utilizes a proof-of-stake consensus algorithm, leveraging Delegated Proof of Stake (DPoS) for efficient and secure validation.
+
+2/6 The Supra L1 network employs a DPoS consensus mechanism, where validators are chosen through a voting process, and token holders delegate their tokens to these validators to participate in the validation process.
+
+3/6 Supra's Token Claim Plans are designed to allow players to claim their tokens at a specific time, with two plans available: Accelerated Unlock and Slow Vesting. The Accelerated Unlock plan allows for faster token access, while the Slow Vesting plan locks up tokens for a longer duration.
+
+4/6 The Supra L1 network utilizes a hybrid consensus algorithm, combining elements of DPoS and Delegated Byzantine Fault Tolerance (dBFT). This hybrid approach enhances the network's security and scalability.
+
+5/6 The Supra ecosystem is designed to support a wide range of use cases, including decentralized finance (DeFi) applications, gaming, and social media platforms. The network's modular architecture enables seamless integration with various applications.
+
+6/6 Supra's Token Generation Event (TGE) is poised to break world records for Layer-1 users, token holders, and delegates. The network's innovative approach to tokenomics and delegation plans has garnered significant attention from the cryptocurrency community, highlighting the potential for Supra to become a leading player in the DeFi space.
+["1/6 Countdown to Blast Off's Layer-1 mainnet is nearing completion, with the Token Generation Event (TGE) imminent. Supra's L1 network utilizes a proof-of-stake consensus algorithm, leveraging Delegated Proof of Stake (DPoS) for efficient and secure validation. 🧵", '2/6 The Supra L1 network employs a DPoS consensus mechanism, where validators are chosen through a voting process, and token holders delegate their tokens to these validators to participate in the validation process.', '"Countdown to Blast Off\'s Layer-1 mainnet completion! TGE imminent. Supra\'s L1 network uses Delegated Proof of Stake (DPoS) for efficient & secure validation. #Supra #BlastOff #L1Mainnet"', "4/6 The Supra L1 network utilizes a hybrid consensus algorithm, combining elements of DPoS and Delegated Byzantine Fault Tolerance (dBFT). This hybrid approach enhances the network's security and scalability.", "5/6 The Supra ecosystem is designed to support a wide range of use cases, including decentralized finance (DeFi) applications, gaming, and social media platforms. The network's modular architecture enables seamless integration with various applications.", '"Countdown to Blast Off\'s Layer-1 mainnet completion! TGE imminent. Supra\'s L1 network uses Delegated Proof of Stake (DPoS) for efficient & secure validation. #Supra #BlastOff #L1Mainnet"']
+Tweet posted: 1865531787763396834
+Tweet posted: 1865531789646729634
+Tweet posted: 1865531791475359876
+Tweet posted: 1865531793270542494
+Tweet posted: 1865531795392901270
+Tweet posted: 1865531797347483664
+Tweeted successfully
