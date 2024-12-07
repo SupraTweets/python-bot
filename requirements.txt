@@ -3,3 +3,6 @@ openai
 beautifulsoup4
 python-dotenv
 tweepy
+os
+urllib
+random
