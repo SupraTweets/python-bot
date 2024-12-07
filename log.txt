@@ -1,0 +1,28 @@
+1/6 Supra's L1 blockchain features MultiVM compatibility, integrating oracles, bridges, automation, and randomness into a single chain, enabling Super dApps.
+
+2/6 Supra's tech stack includes oracle price feeds and verifiable randomness across 80+ blockchains with Layer-1 security guarantees.
+
+3/6 Supra's Demo Day at Korea Blockchain Week will feature live demos, keynotes from co-founders, and a panel of judges, with the best dApps winning up to $15,000.
+
+4/6 The event will be held at the Hashed Office in Gangnam, with limited capacity, and attendees are encouraged to register early for a priority networking experience.
+
+5/6 Supra's Demo Day is a significant event in the lead-up to conferences like Token2049, Permissionless, and India Blockchain Week, showcasing the L1's capabilities and developer toolkit.
+
+6/6 The event highlights Supra's focus on solving real problems for dApp developers and scaling Web3, with the co-founders' keynotes covering the full spectrum of Supra's groundbreaking vertical integration.
+["1/6 Supra's L1 blockchain features MultiVM compatibility, integrating oracles, bridges, automation, and randomness into a single chain, enabling Super dApps. 🧵", "2/6 Supra's tech stack includes oracle price feeds and verifiable randomness across 80+ blockchains with Layer-1 security guarantees.", "3/6 Supra's Demo Day at Korea Blockchain Week will feature live demos, keynotes from co-founders, and a panel of judges, with the best dApps winning up to $15,000.", '4/6 The event will be held at the Hashed Office in Gangnam, with limited capacity, and attendees are encouraged to register early for a priority networking experience.', "5/6 Supra's Demo Day is a significant event in the lead-up to conferences like Token2049, Permissionless, and India Blockchain Week, showcasing the L1's capabilities and developer toolkit.", "6/6 The event highlights Supra's focus on solving real problems for dApp developers and scaling Web3, with the co-founders' keynotes covering the full spectrum of Supra's groundbreaking vertical integration."]
+Error in Tweeting:  429 Too Many Requests
+Too Many Requests
+1/6 Supra partners with Primex Finance, a non-custodial prime brokerage protocol, to enable leveraged trading of tokens not listed on centralized exchanges, utilizing Primex's Oracle services for real-time, decentralized, and secure price data.
+
+2/6 Primex Finance aggregates liquidity from multiple DEXs, offering an EVM-compatible multichain protocol, and will leverage Supra's low-latency oracle for accurate and averaged market prices, protecting traders and lenders from price manipulation risks.
+
+3/6 Supra's Layer-1 blockchain features multi-VM support, native oracles, verifiable randomness, and cross-chain communication, enabling fast, agile, and resilient data applications, and bridging traditional financial markets with Web3.
+
+4/6 Primex Finance's upcoming upgrade will incorporate Uniswap v3 pools as a price data source, expanding support to various oracles, and will leverage Supra's Oracle services for enhanced trade execution and increased platform resilience.
+
+5/6 The integration of Supra's services will enable faster and more efficient execution of liquidations and orders, safeguarding user assets and ensuring data integrity, while expanding Primex Finance's token offerings without development delays.
+
+6/6 The partnership showcases the potential for decentralized trading and cross-chain Oracle solutions to drive market adoption, offering a more efficient and secure trading experience for users, and bridging traditional financial markets with Web3.
+["1/6 Supra partners with Primex Finance, a non-custodial prime brokerage protocol, to enable leveraged trading of tokens not listed on centralized exchanges, utilizing Primex's Oracle services for real-time, decentralized, and secure price data. 🧵", "2/6 Primex Finance aggregates liquidity from multiple DEXs, offering an EVM-compatible multichain protocol, and will leverage Supra's low-latency oracle for accurate and averaged market prices, protecting traders and lenders from price manipulation risks.", "3/6 Supra's Layer-1 blockchain features multi-VM support, native oracles, verifiable randomness, and cross-chain communication, enabling fast, agile, and resilient data applications, and bridging traditional financial markets with Web3.", "4/6 Primex Finance's upcoming upgrade will incorporate Uniswap v3 pools as a price data source, expanding support to various oracles, and will leverage Supra's Oracle services for enhanced trade execution and increased platform resilience.", "5/6 The integration of Supra's services will enable faster and more efficient execution of liquidations and orders, safeguarding user assets and ensuring data integrity, while expanding Primex Finance's token offerings without development delays.", '6/6 The partnership showcases the potential for decentralized trading and cross-chain Oracle solutions to drive market adoption, offering a more efficient and secure trading experience for users, and bridging traditional financial markets with Web3.']
+Error in Tweeting:  429 Too Many Requests
+Too Many Requests
