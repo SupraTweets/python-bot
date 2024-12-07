@@ -116,12 +116,13 @@ def create_meme(topics, audience):
         print(f"Meme URL: {meme_url}")
     else:
         print("Failed to generate meme image.")
+    return meme_url
 
 # Example usage
 # print(fetch_meme_templates())
 # meme_idea = generate_meme_idea(['web3', 'solana'],'college','Grim Reaper Knocking Door')
 # print(extract_meme_text(meme_idea))
 # if __name__ == "__main__":
-topics = ["supra", "Cross-chain transactions", "speed", "security", "interoperability"]
-audience = "Crypto enthusiasts, developers, blockchain professionals"
-create_meme(topics, audience)
+# topics = ["supra", "Cross-chain transactions", "speed", "security", "interoperability"]
+# audience = "Crypto enthusiasts, developers, blockchain professionals"
+# create_meme(topics, audience)
