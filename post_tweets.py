@@ -16,11 +16,11 @@ openai = OpenAI(
 )
 
 model = "meta-llama/llama-3.2-3b-instruct:free"
-API_KEY = os.getenv("API_KEY")
-API_KEY_SECRET = os.getenv("API_KEY_SECRET")
-ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
-ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
-BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+API_KEY = os.getenv("API_KEY2")
+API_KEY_SECRET = os.getenv("API_KEY_SECRET2")
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN2")
+ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET2")
+BEARER_TOKEN = os.getenv("BEARER_TOKEN2")
 
 class SupraScraper:
     def __init__(self):
@@ -123,18 +123,27 @@ class SupraScraper:
         # content = "1/1 abc\n\n2/2 big\n\n3/3 cat"
         tweets = self.split_into_tweets(content)
         tweets.append(f"Read more: {url}")
-        try:
-            first_tweet = self.client.create_tweet(text=tweets[0])
-            previous_tweet_id = first_tweet.data['id']
-            # second_tweet = self.client.create_tweet(text=tweets[1], in_reply_to_tweet_id=previous_tweet_id)
-            for tweet_text in tweets[1:]:
-                tweet = self.client.create_tweet(text=tweet_text, in_reply_to_tweet_id=previous_tweet_id)
-                print(f"Tweet posted: {tweet.data['id']}")
-                previous_tweet_id = tweet.data['id']
+        first_tweet = self.client.create_tweet(text=tweets[0])
+        previous_tweet_id = first_tweet.data['id']
+        # second_tweet = self.client.create_tweet(text=tweets[1], in_reply_to_tweet_id=previous_tweet_id)
+        for tweet_text in tweets[1:]:
+            tweet = self.client.create_tweet(text=tweet_text, in_reply_to_tweet_id=previous_tweet_id)
+            print(f"Tweet posted: {tweet.data['id']}")
+            previous_tweet_id = tweet.data['id']
             # response = self.client.create_tweet(text=content)
-            print("Tweeted successfully")
-        except Exception as e:
-            print("Error in Tweeting: ", e)
+        print("Tweeted successfully")
+        # try:
+            # first_tweet = self.client.create_tweet(text=tweets[0])
+            # previous_tweet_id = first_tweet.data['id']
+            # # second_tweet = self.client.create_tweet(text=tweets[1], in_reply_to_tweet_id=previous_tweet_id)
+            # for tweet_text in tweets[1:]:
+            #     tweet = self.client.create_tweet(text=tweet_text, in_reply_to_tweet_id=previous_tweet_id)
+            #     print(f"Tweet posted: {tweet.data['id']}")
+            #     previous_tweet_id = tweet.data['id']
+            # # response = self.client.create_tweet(text=content)
+            # print("Tweeted successfully")
+        # except Exception as e:
+        #     print("Error in Tweeting: ", e)
 
     def save_processed_url(self, url):
         with open(self.processed_file, "a") as file:
@@ -183,7 +192,7 @@ class SupraScraper:
                     messages=[{"role": "user", "content": prompt}],
                     max_tokens=2000
                 )
-                tweets[i] = response.choices[0].message.content
+                tweets[i] = res.choices[0].message.content
             
         if tweets:
             tweets[0] = f"{tweets[0]} 🧵"
